@@ -1,1 +1,5 @@
-This is the begining of the new code experienceYou should be proud of it
+import os imports Python’s operating-system tools. The variable file_path stores the relative path to important_data.txt. Because it is relative, Python checks for the file in the program’s current working directory.
+
+os.path.exists(file_path) checks whether the specified path exists. It returns True if the file or directory is found and False if it does not exist or is an invalid or broken path.
+
+The if statement uses this Boolean result to choose which message to display. If the path exists, the first print() runs; otherwise, the else block runs. Each message uses an f-string, allowing the value of file_path to be inserted directly into the output.
